@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+
+        <div class="logo">NikhiL Mahar</div>
+        <div>
+        <ul class="nav-links">
+            <li><a href="#about">about</a></li>
+            <li><a href="#experience">experience</a></li>
+            <li><a href="#projects ">projects</a></li>
+            <li><a href="#contact">contacts</a></li>
+
+        </ul>
+        </div>
+        
+
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">NikhiL Mahar</div>
+        <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">about</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">experience</a></li>
+            <li><a href="#projects " onclick="toggleMenu()">projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">contacts</a></li>
+        </div>
+    </div>
+    </nav>
+<section id="profile">
+        <div class="section_pic-conatiner">
+            <img src="rrrr.png" alt="nikhil profile picture">
+
+        </div>
+        <div class="section_text">
+  <p class="section_text_p1">Hello,I'm</p>
+  <h1 class="title">NikhiL MahaR</h1>
+  <P class="section_text_p2">Frontend Developer</P>
+  <div class="btn-container">
+    <button class="btn btn-color-2" onclick="window.open('Rezume.pdf')">Download CV</button>
+    <!-- window object hai browser ka jis se hum multiple fun usse kar sakte hai ,,window object ka javascript se koi matlav nahi hai  -->
+    <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+    <!-- contact pe scroll kar dega -->
+    <!--  -->
+  </div>
+  <div id="socials-container">
+
+    <img src="linkedin.png" alt="My LinkeIn profile" 
+    class="icon" onclick="location.href='https://linkedin.com/' "/>
+
+    <img src="github.png" alt="My Github profile" 
+    class="icon" onclick="location.href='https://github.com/NIKHILSINGMAHAR/' "/>
+  </div>
+
+        </div>
+</section>
+<!--  -->
+ <!-- -->
+<section id="about">
+    <p class="section_text_p1">Get to know more</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+        <div class="section_pic-container">
+            <img src="xxxx.JPG" alt="Profile picture" class=" about-pic"/>
+        </div>
+        <div class="about-details-container">
+         <div class="about-containers">
+                <div class="details-container">
+                    <img src="experience.png"  alt="Experience icon" class="icon"/>
+                    <h3>Experience</h3>
+                    <p>   <br />Frontend Development </p>
+                </div>
+
+                <div id="consss" class="details-container">
+                    <img src="education.png"  alt="Education icon" class="icon"/>
+                    <h3>Education</h3>
+                    <p> Btech Computer Science  <br />Bachelors Degree </p>
+              </div>
+          </div> 
+
+          <div class="text-container">
+            <p>I'm Nikhil Singh Mahar, a third-year B-Tech student. I possess a strong understanding of core computer fundamentals, including Object-Oriented Programming (OOPs), Database Management Systems (DBMS), and Computer Organization and Architecture (COA). 
+              <br><br>My programming skills span C, C++, Java, and Python, alongside a keen interest in frontend development.
+
+              I've been actively engaged in diverse projects where I've applied my knowledge to real-world scenarios, demonstrating my practical expertise.</p>
+          </div>
+        </div>
+    </div>
+    <img src="arrow.png"  alt="Arrow icon" class="icon arrow"
+    onclick="location.href='./experince#'" />
+</section>
+<!--  -->
+<!-- experinnce -->
+<section id="experience">
+    <p class="section_text_p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+        <div class="about-containers">
+            <div class="details-container">
+                <h2 class="experience-sub-title">Frontend Development</h2>
+                <div  class="article-container">
+                  <article>
+                  <img src="checkmark.png" alt="Experience icon" class="icon"/>
+                  <div>
+                    <h3>HTML</h3>
+                    <p>Experienced</p>
+                   </div>
+                  </article>
+
+
+                   <article>
+                    <img src="checkmark.png" alt="Experience icon" class="icon"/>
+                    <div>
+                     <h3>CSS</h3>
+                     <p>Experienced</p>
+                    </div>
+                   </article>
+
+                   <article>
+                    <img src="checkmark.png" alt="Experience icon" class="icon"/>
+                    <div>
+                     <h3>Python</h3>
+                     <p>Experienced</p>
+                    </div>
+                   </article>
+
+                   <article>
+                    <img src="checkmark.png" alt="Experience icon" class="icon"/>
+                    <div>
+                     <h3>Javascript</h3>
+                     <p>Intermediate</p>
+                    </div>
+                   </article>
+
+                   <article >
+                    <img src="checkmark.png" alt="Experience icon" class="icon"/>
+                    <div>
+                     <h3>tailwindCSS</h3>
+                     <p>Basic</p>
+                    </div>
+                   </article>
+
+                  
+                   <article>
+                    <img src="checkmark.png" alt="Experience icon" class="icon"/>
+                    <div>
+                     <h3>C++,OOPS</h3>
+                     <p>Experienced</p>
+                    </div>
+                   </article>
+
+                </div>
+            </div>
+            <div  id="abc" class="details-container">
+                <h2 class="experience-sub-title">Backend Development</h2>
+                <!-- id use -->
+                <div id="pppp" class="article-container">
+
+
+                  <article>
+                  <img src="checkmark.png" alt="Experience icon" class="icon"/>
+                  <div>
+                    <h3>DBMS</h3>
+                    <p>Basic</p>
+                   </div>
+                  </article>
+
+
+
+
+                  <article>
+                    <img src="checkmark.png" alt="Experience icon" class="icon"/>
+                    <div>
+                     <h3>MYSQL</h3>
+                     <p>basic</p>
+                    </div>
+                  </article>
+
+
+
+
+                  <article id="yup">
+                    <img src="checkmark.png" alt="Experience icon" class="icon"/>
+                    <div>
+                     <h3>tailwindCSS</h3>
+                     <p>Basic</p>
+                    </div>
+                  </article>
+
+
+
+                  <article id="axv">
+                    <img src="checkmark.png" alt="Experience icon" class="icon"/>
+                    <div>
+                     <h3>Git</h3>
+                     <p>Basic</p>
+                    </div>
+                  </article>
+
+
+
+
+                  <article id="axv">
+                    <img src="checkmark.png" alt="Experience icon" class="icon"/>
+                    <div>
+                     <h3>ReactJS</h3>
+                     <p>Basic</p>
+                    </div>
+                  </article>
+
+                  
+                  <article id="axv">
+                    <img src="checkmark.png" alt="Experience icon" class="icon"/>
+                    <div>
+                     <h3>Figma</h3>
+                     <p>Basic</p>
+                    </div>
+                  </article>
+
+                </div>
+            </div> 
+        </div>
+    </div>
+    <img src="arrow.png"  alt="Arrow icon" class="icon arrow"
+    onclick="location.href='./experince#'" />
+
+</section>
+<!--  -->
+<!--  -->
+
+<section id="projects">
+  <p class="section_text_p1">Browse My Recent</p>
+  <h1 class="title">Projects</h1>
+  <div class="experience-details-container">
+    <!-- id -->
+    <div  id="abouttt" class="about-containers">
+<div class="details-container color-container">
+  <div class="article-container">
+    <img src="xxx13.png" alt="project 1" class="project-img" />
+  </div>
+  <h2 class="experience-sub-title project-title">Project One</h2>
+  <div class="btn-container">
+     <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/NIKHILSINGMAHAR/ImageEditor'">
+      Github
+    </button>
+
+    <button class="btn btn-color-2 project-btn" onclick="location.href=' https://nikhilsingmahar.github.io/ImageEditor/'">
+      Live Demo
+    </button>
+  </div>
+</div>
+<!--  -->
+<!--  -->
+<div class="details-container color-container">
+  <div class="article-container">
+    <img src="xxx14.png" alt="project 2" class="project-img" />
+  </div>
+  <h2 class="experience-sub-title project-title">Project two</h2>
+  <div class="btn-container">
+     <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/NIKHILSINGMAHAR/quote-app'">
+      Github
+    </button>
+
+    <button class="btn btn-color-2 project-btn" onclick="location.href='https://nikhilsingmahar.github.io/quote-app/'">
+      Live Demo
+    </button>
+  </div>
+</div>
+<!--  -->
+<!--  -->
+<div class="details-container color-container">
+  <div class="article-container">
+    <img src="xxx12.png" alt="project 3" class="project-img" />
+  </div>
+  <h2 class="experience-sub-title project-title">Project three</h2>
+  <div class="btn-container">
+     <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/NIKHILSINGMAHAR/NoteApp'">
+      Github
+    </button>
+
+    <button class="btn btn-color-2 project-btn" onclick="location.href='https://nikhilsingmahar.github.io/NoteApp/'">
+      Live Demo
+    </button>
+  </div>
+</div>
+<!--  -->
+<!--  -->
+<div class="details-container color-container">
+  <div class="article-container">
+    <img src="xxx15.png" alt="project 4" class="project-img" />
+  </div>
+  <h2 class="experience-sub-title project-title">Project four</h2>
+  <div class="btn-container">
+     <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/NIKHILSINGMAHAR/portfolio'">
+      Github
+    </button>
+
+    <button class="btn btn-color-2 project-btn" onclick="location.href='https://nikhilsinghmahar.netlify.app'">
+      Live Demo
+    </button>
+  </div>
+</div>
+<!--  -->
+
+<div class="details-container color-container">
+  <div class="article-container">
+    <img src="xxx11.png" alt="project 5" class="project-img" />
+  </div>
+  <h2 class="experience-sub-title project-title">Project five</h2>
+  <div class="btn-container">
+     <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/NIKHILSINGMAHAR/SkyWatch-App'">
+      Github
+    </button>
+
+    <button class="btn btn-color-2 project-btn" onclick="location.href='https://nikhilsingmahar.github.io/SkyWatch-App/'">
+      Live Demo
+    </button>
+  </div>
+</div>
+<!--  -->
+<!--  -->
+<!-- <div class="details-container color-container">
+  <div class="article-container">
+    <img src="project-3.png" alt="project 1" class="project-img" />
+  </div>
+  <h2 class="experience-sub-title project-title">Project Six</h2>
+  <div class="btn-container">
+     <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/NIKHILSINGMAHAR/GratifyMe-App'">
+      Github
+    </button>
+
+    <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/NIKHILSINGMAHAR/GratifyMe-App'">
+      Live Demo
+    </button>
+  </div>
+</div> -->
+
+</div>
+<!--  -->
+<!--  -->
+
+
+</div>
+<img src="arrow.png"  alt="Arrow icon" class="icon arrow"
+onclick="location.href='./#projects'" />
+
+
+</section>
+<!--  -->
+<!--  -->
+
+<!-- contact -->
+<section id="contact">
+<p class="section_text_p1">Get in Touch</p>
+<h1 class="title">Contact Me</h1>
+<div class="contact-info-upper-container">
+  <div class="contact-info-container">
+    <img src="email.png" alt="Email icon" class="icon contact-icon email-icon"/>
+    <p><a href="mailto:nikhilmahar1324@gmail.com">nikhilmahar1324@gmail.com</a></p>
+  </div>
+  <!--  -->
+  <div class="contact-info-container">
+    <img src="linkedin.png" alt="Linkedin icon" class="icon contact-icon"/ >
+    <p><a href="https://www.linkedin.com/in/nikhil-mahar/">Linkedin</a></p>
+  </div>
+<!--  -->
+</div>
+
+</section>
+<footer>
+<nav>
+<div class="nav-links-conatiner">
+
+  <ul class="nav-links">
+    <li><a href="#about">about</a></li>
+    <li><a href="#experience">experience</a></li>
+    <li><a href="#projects ">projects</a></li>
+    <li><a href="#contacts">contacts</a></li>
+
+</ul>
+
+</div>
+</nav>
+<p>Copyright &#169; 2023 nikhil mahar,All rights Reserved. </p>
+
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
